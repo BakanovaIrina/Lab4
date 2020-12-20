@@ -30,7 +30,7 @@ public enum  Location {
     }
 
     public void removeObjects(PhysicalBody object) throws ThingsException{
-        if (objects.size() > 0){
+        if (objects.size() >= 0){
             objects.remove(object);
         }
         else {
